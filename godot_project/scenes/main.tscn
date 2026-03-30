@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://bjq35b8u8ebv2"]
+
+[ext_resource type="PackedScene" uid="uid://cavh7d17sq6fx" path="res://models/monito.glb" id="1_o5qli"]
+[ext_resource type="Material" uid="uid://cjusejjyuvbro" path="res://materials/inverted_hull.tres" id="2_0wfyh"]
+[ext_resource type="Material" uid="uid://ujabps2sa8n8" path="res://materials/monito.tres" id="2_sugp2"]
+
+[node name="Node3D" type="Node3D" unique_id=1847766172]
+
+[node name="monito" parent="." unique_id=801514995 instance=ExtResource("1_o5qli")]
+
+[node name="ObjetoA" parent="monito" index="0" unique_id=1905217070]
+material_override = ExtResource("2_sugp2")
+material_overlay = ExtResource("2_0wfyh")
+
+[editable path="monito"]
